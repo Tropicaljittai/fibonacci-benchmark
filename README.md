@@ -52,7 +52,7 @@ make; ./main.out
 
 ## Result
 
-![Result](Images/Result.png)
+![Result](images/Result.png)
 
 # Benchmark
 
@@ -71,7 +71,7 @@ make; make time
 ## Time Comparison
 
 In this case i use N = 40
-![TimeComplx](Images/TimeComplex.png)
+![TimeComplx](images/TimeComplex.png)
 it shows that the time taken for iterative N = 40 is 0.000000s and for recursive N = 40 us 1.687500s
 
 # Space Complexity
@@ -93,5 +93,5 @@ make; make space
 (using activity monitor)
 
 N = 100000
-![SpaceCmplx](Images/spacecomplexRecursive.png)
+![SpaceCmplx](images/spacecomplexRecursive.png)
 It shows that the memory usage for iterative is 0.1 mb and memory usage by recursive is 4.7 mb
