@@ -5,8 +5,8 @@ Here, i will compare the time and space complexity of fibonacci(iterative) and f
 ## Fibonacci iterative
 
 ```c
-int FibIterative(int N){
- int first = 0, second = 1, result, i;
+int fibonacciIterative(int N){
+    int first = 0, second = 1, result, i;
     for (int i = 0; i < N+1; i++)
   {
     if (i <= 1){
@@ -26,17 +26,17 @@ return result;
 ## Fibonacci recursive
 
 ```c
-int FibRecursion(int N){
-   if (N==0){
+int fibonacciRecursive(int N){
+    
+    if (N==0){
         return 0;
     }
     else if (N==1){
         return 1;
     }
     else{
-        return FibRecursion(N-1)+FibRecursion(N-2);
+        return fibonacciRecursive(N-1)+fibonacciRecursive(N-2);
     }
-
 }
 ```
 
