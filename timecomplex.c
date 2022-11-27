@@ -4,7 +4,7 @@
      
 clock_t start, end;
 double timed;
-const int N = 80;
+const int N = 40;
 
 int main(){
     start = clock();
