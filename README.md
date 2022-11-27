@@ -96,6 +96,8 @@ make; make space
 
 N = 100000
 
+![SpaceCmplx](images/spacecomplexIterative.png)
+
 ![SpaceCmplx](images/spacecomplexRecursive.png)
 
 It shows that the memory usage for iterative is 0.1 mb and memory usage by recursive is 4.7 mb
