@@ -1,6 +1,6 @@
 # Fibonacci
 
-Here, i will compare the time and space complexity of fibonacci(iterative) and fibonacci(recursive)
+For this assignment, i will compare the time & space complexity of fibonacci iterative method and fibonacci recursive method
 
 ## Fibonacci iterative
 
@@ -40,9 +40,9 @@ int fibonacciRecursive(int N){
 }
 ```
 
-# Testing
+# Code testing
 
-## How to run
+## How to run the code
 
 Using command make; ./main.out
 
@@ -50,17 +50,17 @@ Using command make; ./main.out
 make; ./main.out
 ```
 
-## Result
+## Results
 
 ![Result](images/Result.png)
 
-# Benchmark
+# Benchmark results
 
-Benchmarking is to test of code and help us improve our code by comparing each approach's time and space complexity.
+The point of benchmarking is for us to test our code, it will help us see the time and space complexity, and their advantages & weaknesses.
 
 # Time Complexity
 
-## How to run
+## How to run time complexity tests
 
 using command make time
 
@@ -68,17 +68,17 @@ using command make time
 make; make time
 ```
 
-## Time Comparison
+## Time  Result Comparison
 
-In this case i use N = 40
+For the test in this case i will use N = 40
 
 ![TimeComplx](images/TimeComplex.png)
 
-it shows that the time taken for iterative N = 40 is 0.000000s and for recursive N = 40 us 1.687500s
+This picture above shows that the time needed for iterative N = 40 is 0.000000s and for recursive N = 40 is 1.687500s
 
-# Space Complexity
+# Space Complexity Results
 
-## How to run
+## How to run space complexity tests
 
 ```bash
 make; make space
@@ -90,9 +90,9 @@ make; make space
 ./space_iterative.out
 ```
 
-## Space Comparison
+## Space Complexity Comparison
 
-(using activity monitor)
+(using task manager)
 
 N = 100000
 
@@ -100,4 +100,4 @@ N = 100000
 
 ![SpaceCmplx](images/spacecomplexRecursive.png)
 
-It shows that the memory usage for iterative is 0.1 mb and memory usage by recursive is 4.7 mb
+Images above shows that the memory usage for iterative is 0.1 mb and memory usage by recursive is 4.7 mb
